@@ -31,7 +31,7 @@ def tries():#One try of weight values to check against expected resuts
 	return perceptron_output
 
 
-def trainer():#Trains the perceptron to
+def trainer():#Trains the perceptron to adjust the weights to get the expected results
 	global w1,w2
 	# print results
 	iteration = 0
